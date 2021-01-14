@@ -269,7 +269,7 @@ body {
   transition: .3s;
 }
 
-.embed-responsive {
+main.home .embed-responsive {
   width: 60%;
   margin: 0 auto;
 }
@@ -506,6 +506,19 @@ main.teaching {
 main.teaching p {
   text-align: justify;
 }
+main.teachers .teacher h3 {
+  text-align: center;
+  border: 1px solid #000000;
+
+}
+main.teachers .embed-responsive {
+  margin-bottom: 0;
+}
+main.order .embed-responsive{
+  width: 80%;
+}
+
+
 @-webkit-keyframes navbar-animation {
   0% {
     opacity: 0;
@@ -538,6 +551,9 @@ main.teaching p {
   .wavetext span {
     font-size: 60px;
   }
+  main.order {
+    min-height: 500px;
+  }
 }
 @media only screen and (max-width: 992px) {
   .navbar .nav-item {
@@ -546,11 +562,17 @@ main.teaching p {
   .wavetext span {
     font-size: 50px;
   }
+  main.order {
+    min-height: 400px;
+  }
 }
 @media only screen and (max-width: 768px) {
   .wavetext span {
-    font-size: 40px;
+    font-size: 50px;
   }
+  main.home .embed-responsive{
+    width: 80%;
+  }  
   main.pr {
     min-height: 400px;
   }  
@@ -560,14 +582,20 @@ main.teaching p {
   main.container .price table, th, td {
     font-size: 16px;
   }
+  main.order {
+    min-height: 300px;
+  }
+  main.order .embed-responsive{
+    width: 100%;
+  }  
 }
 @media only screen and (max-width: 576px) {
   .wavetext span {
-    font-size: 25px;
+    font-size: 40px;
   }
   main.social {
     min-height: 340px;
-}
+  }
   main.social .social-title {
     font-size: 40px;
   }
@@ -617,8 +645,17 @@ main.teaching p {
   main.container .price table, th, td {
     font-size: 12px;
   }
+  main.teachers h1 {
+    font-size: 1.5rem;
+  }
 }
 @media only screen and (max-width: 400px) {
+  main.home {
+    min-height: 510px;
+  }
+  .wavetext span {
+    font-size: 30px;
+  }
   .orange__link {
     height: 50px;
     width: 190px;
