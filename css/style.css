@@ -475,6 +475,9 @@ main.social .social-title img:hover {
 main.container .about p, li {
   text-align: justify;
 }
+main.container .about p strong {
+  text-decoration: underline;
+}
 main.container .price table {
   margin-top: 3.25rem;
 }
