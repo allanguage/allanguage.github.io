@@ -16,7 +16,7 @@ $(function () {
     }
   });
 
-  var text = "ALlanguage";
+  var text = "LAlanguage";
 
   for (var i in text) {
     if (text[i] === " ") {

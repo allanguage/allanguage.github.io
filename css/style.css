@@ -428,11 +428,11 @@ main.social .instagram_icon {
 }
 main.social .vkantakte_icon {
   position: absolute;
-  top: 78px;
+  top: 74px;
   left: 35px;
   transform: scale(1);
   width: 2px;
-  height: 130px;
+  height: 136px;
   background-color: hsl(30, 99%, 27%);
 }
 main.social .youtube_icon {
@@ -448,7 +448,7 @@ main.social .youtube_icon {
 main.social .social-title a.facebook {
   position: absolute;
   top: 217px;
-  right: -26px;
+  right: -40px;
 }
 main.social .social-title a.instagram {
   position: absolute;
@@ -628,7 +628,7 @@ main.order .embed-responsive{
   }
   main.social .social-title a.facebook {
     top: 120px;
-    right: -27px;
+    right: -35px;
   }
   main.social .social-title a.instagram {
     top: -95px;
