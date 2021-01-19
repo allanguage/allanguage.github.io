@@ -204,20 +204,24 @@ body {
 }
 
 
-.btn{
+.btn {
 	font-size: 15px;
 	font-weight: 600;
 	color: #fff;
 	text-transform: uppercase;
 }
-
-
+main.home .row div:last-child .link_img {
+	margin-left: 10px;
+}
+main.home .row div:last-child .btn {
+  font-size: 14px;
+}
 .orange__link {
   display:flex;/*CSS3*/
   align-items:center;/*Vertical align*/
   justify-content:center;/*horizontal align*/
   height: 80px;
-  width: 300px;
+  width: 350px;
   margin: 0 auto;
   background: #FE9023;
   color: #ffffff;
@@ -475,6 +479,9 @@ main.social .social-title img:hover {
 main.container .about p, li {
   text-align: justify;
 }
+main.container .about li {
+  margin-bottom: 1rem;
+}
 main.container .about h3 {
   text-align: center;
   margin-top: 1.5rem;
@@ -577,8 +584,20 @@ main.order .embed-responsive{
   .wavetext span {
     font-size: 50px;
   }
+  main.home .row div:last-child .link_img {
+    margin-left: 5px;
+  }
+  main.home .row div:last-child .btn {
+    font-size: 13px;
+  }
+  .orange__link {
+    width: 300px;
+  }  
   main.order {
     min-height: 400px;
+  }
+  main.order h1{
+    font-size: 2.1rem;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -602,7 +621,10 @@ main.order .embed-responsive{
   }
   main.order .embed-responsive{
     width: 100%;
-  }  
+  }
+  main.order h1{
+    font-size: 1.8rem;
+  }
 }
 @media only screen and (max-width: 576px) {
   .wavetext span {
@@ -676,6 +698,23 @@ main.order .embed-responsive{
     width: 190px;
   }
   .btn {
-    font-size: 12px;
+    font-size: 9px;
+  }
+  main.home .row div:last-child .btn {
+    font-size: 8px;
+  }
+  .link_img {
+    width: 20px;
+    height: 20px;
+  }  
+  .link_img {
+    width: 20px;
+    height: 20px;
+  }
+  .row div:last-child .link_img {
+    margin-left: 1px;
+  }
+  main.order h1{
+    font-size: 1.2rem;
   }
 }
