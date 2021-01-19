@@ -475,6 +475,11 @@ main.social .social-title img:hover {
 main.container .about p, li {
   text-align: justify;
 }
+main.container .about h3 {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
 main.container .about p strong {
   text-decoration: underline;
 }
@@ -509,13 +514,20 @@ main.teaching {
 main.teaching p {
   text-align: justify;
 }
+main.teaching h3 {
+  text-align: center;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
 main.teachers .teacher h3 {
   text-align: center;
   border: 1px solid #000000;
-
+  border-radius: 20px;
+  margin-top: 5px;
 }
-main.teachers .embed-responsive {
+.embed-responsive {
   margin-bottom: 0;
+  border-radius: 30px;
 }
 main.order .embed-responsive{
   width: 80%;
